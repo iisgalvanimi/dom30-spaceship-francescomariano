@@ -1,0 +1,54 @@
+
+:root {
+   
+  --primary:  #cc0000;
+  --spaceship: #66ccff;
+}
+
+
+
+
+body {
+    /* background-color: rgb(150, 204, 235);*/
+    background-color:  #0f1836 ;
+    height: 400px;
+    /*width:  500px;*/
+}
+
+
+h2 {
+  color: var(--primary);
+}
+
+.mainContainer {
+  text-align: center;
+  margin:auto;
+  border: 2px solid  var(--primary);
+  padding:20px;
+  /*height: 90%;*/
+  width:  90%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+ 
+
+#spaceship {
+  color: white;
+  background-color:  var(--spaceship);
+  margin-left:15px;
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  /*margin-top: 60%; */
+}
+
+button {
+  background-color:  var(--primary);
+  color: white;
+  padding: 10px;
+  border:0;
+  margin:1rem;
+  
+}
